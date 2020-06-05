@@ -1,0 +1,111 @@
+
+    html, body {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      background-color:#8C748D!important;
+    }
+    body {
+      background: #8C748D;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      
+    }
+    header{
+      background-color:#8C748D;
+      padding: 0px;
+      margin: 0px;
+    }
+    .swiper-container {
+      width:80%;
+      height: 75%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .container{ /* our containers will have these colours and maximum sized applied to them */
+      max-width: 1000px;
+      max-height: 1000px;
+     
+    }
+
+    
+    .sendy{
+      border-color: none;
+      stroke: none; /*sendy is the name of the form button which we dont want to havea  border colour or stroke */
+    }
+
+    img{ /*images is not an id name so no dot. these are how it is displaued*/
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-primary{ /* the buttom will have these attributes applied to them */
+      background-color: #feffc7;
+      border-color: #feffc7;
+    
+    }
+    .btn-primary:hover{ /* when the button is hovered on the colour changes to these colours */
+      background-color: #feffc7;
+      border-color: #feffc7;
+    }
+
+    #swipeImgAbout,#swipeImgGraph,#swipeImgWeb{
+      width:100%;
+    }
+    .swiper-container{
+      background: #8C748D;
+    }
+    .swiper-slide{
+      
+      background:  #A76571;
+    }
+
+    #graphSlide{
+      background-color: #533747;
+    }
+    #webSlide{
+   background-color: #03045e;
+  }
+  #aboutSlide{
+    background-color:#605770;
+  }
+  #contactSlide{
+    background-color: #5F1A37;
+  }
+  #logo{
+    width: 10%;
+  }
+  #logoTop{
+    padding: 10px;
+    margin: 5px;
+  }
+  #webTitle, #graphTitle, #aboutTitle, #contactTitle{
+    width: 40%;
+    transition: transform .5s ease;
+  }
+  #contactTitle:hover{
+    transform: scale(2);
+  }
+  #webTitle:hover{
+    transform: scale(2);
+  }
+  #graphTitle:hover{
+    transform: scale(2);
+  }
+  #aboutTitle:hover{
+    transform: scale(2);
+
+  }
